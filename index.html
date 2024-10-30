@@ -18,7 +18,7 @@
     background-color: #45454599;
     backdrop-filter: brightness(50%);
 }
-#othercontenttext {
+#rgbatest {
     filter: brightness(150%);
     color: #ffffff;
     color: rgba(255, 255, 255, 0.7);
@@ -27,12 +27,29 @@
     padding-right: 10px;
     text-align: right;
 }
+#hslatest {
+    color: #ffcccc;
+    color: hsla(60, 100%, 90%, 0.8);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
+    padding: 20px;
+}
 h1 {
     background-color: #ffffff;
     opacity: 0.6;
     font-size: 4em;
     padding: 10px;
 }
+.desctext {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    background: #ddd;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1em;
+    backdrop-filter: brightness(80%);
+  }
 </style>
 <body>
 
@@ -42,7 +59,10 @@ h1 {
     </div>
     <div id="othercontent">
         <div id="othercontenttext">
+            <div id="rgbatest">
         At our Nature Hiking Forest, we offer services such as:
+            </div>
+        <div id="hslatest">
         <ul>
             <li>Hot Cocoa-making Classes</li>
             <li>Scarf-Crocheting Club</li>
@@ -50,7 +70,8 @@ h1 {
         </ul>
     </div>
     </div>
-    <div style="font-size: 1em; color: #ccc">hi the descriptor text uses rgba for 4.14, i didn't see the starter file so i just added it here</div>
+    </div>
+    <div class="desctext">hi the 'at our nature hiking forest...' text uses rgba for 4.14 and the text itself uses hsla<br>i'm not 100% sure how we were supposed to submit three different websites with the same url so i just did this instead</div>
 </div>
 </body>
 </html>
