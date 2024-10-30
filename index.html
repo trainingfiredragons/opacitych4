@@ -14,6 +14,19 @@
     height: 480px;
     padding-top: 20px;
 }
+#othercontent {
+    background-color: #45454599;
+    backdrop-filter: brightness(50%);
+}
+#othercontenttext {
+    filter: brightness(150%);
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-right: 10px;
+    text-align: right;
+}
 h1 {
     background-color: #ffffff;
     opacity: 0.6;
@@ -22,8 +35,22 @@ h1 {
 }
 </style>
 <body>
+
 <div id="content">
-    <h1>Fall Nature Hikes</h1>
+    <div id="titletext">
+        <h1>Fall Nature Hikes</h1>
+    </div>
+    <div id="othercontent">
+        <div id="othercontenttext">
+        At our Nature Hiking Forest, we offer services such as:
+        <ul>
+            <li>Hot Cocoa-making Classes</li>
+            <li>Scarf-Crocheting Club</li>
+            <li>Competitive Couch Lounging</li>
+        </ul>
+    </div>
+    </div>
+    <div style="font-size: 1em; color: #ccc">hi the descriptor text uses rgba for 4.14, i didn't see the starter file so i just added it here</div>
 </div>
 </body>
 </html>
